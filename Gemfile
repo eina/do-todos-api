@@ -27,6 +27,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # Token based authentication with JWT
 gem 'jwt'
+# Use serializers for custom representations of JSON responses
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
